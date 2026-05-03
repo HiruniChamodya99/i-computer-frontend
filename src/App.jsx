@@ -8,7 +8,7 @@ import LoginPage from "./pages/login"
 function App() {
 
   return (
-    <div className="w-full h-screen bg-amber-700">
+    <div className="w-full h-screen bg-primary text-Secondary">
       <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="/admin/*" element={<AdminPage/>}/>

@@ -8,7 +8,7 @@ export default function AdminPage(){
                 <a href="/admin/products">Products</a><br/>
                 <a href="/admin/users">Users</a><br/>
 
-                {/*<Link to="/admin/">Orders</Link>
+                {/*<Link to="/admin">Orders</Link>
                 <Link to="/admin/products">Products</Link>
                 <Link to="/admin/users">Users</Link>*/}
 
