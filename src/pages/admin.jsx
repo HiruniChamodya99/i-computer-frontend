@@ -1,10 +1,11 @@
 import { Route, Routes } from "react-router-dom";
+import { FaRegListAlt } from "react-icons/fa";
 
 export default function AdminPage(){
     return(
-        <div className="w-full h-full border-4 border-blue-600 flex">
-            <div className="w-[300px] h-full bg-red-900">
-                <a href="/admin">Orders</a><br/>
+        <div className="w-full h-full flex bg-accent">
+            <div className="w-[300px] h-full bg-accent">
+                <a href="/admin"> <FaRegListAlt /> Orders</a><br/>
                 <a href="/admin/products">Products</a><br/>
                 <a href="/admin/users">Users</a><br/>
 
@@ -14,7 +15,7 @@ export default function AdminPage(){
 
                 
             </div>
-            <div className="flex-1 h-full bg-amber-400">
+            <div className="flex-1 h-full border-8 border-accent rounded-2xl bg-primary">
                 <Routes>
                     <Route path="/" element={<h1>Order Page</h1>}/>
                     <Route path="/products" element={<h1>Products Page</h1>}/>
